@@ -54,6 +54,9 @@ header{
 .thumbnail--one{
 	background-image: url("images/microbit.jpeg");
 }
+.thumbnail--two{
+	background-image: url("images/galaga.png");
+}
 .cover {
   position: absolute;
   width: 100%;
