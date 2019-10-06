@@ -59,6 +59,9 @@ a{
 .thumbnail--two{
 	background-image: url("images/galaga.png");
 }
+.thumbnail--three{
+  background-image: url("images/murder.png");
+}
 .cover {
   position: absolute;
   width: 100%;

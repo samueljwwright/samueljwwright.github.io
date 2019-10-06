@@ -30,3 +30,19 @@ var canvas = document
     top.classList.toggle("top-tog");
     bot.classList.toggle("bot-tog");
   });
+
+    //thumbnail three
+var canvas = document
+  .querySelector(".thumbnail--three")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--three");
+
+    var bot = document.querySelector(".cover--lower--three");
+
+    var para = document.querySelector(".description--three");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
+
