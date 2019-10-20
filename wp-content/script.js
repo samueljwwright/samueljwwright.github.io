@@ -1,3 +1,14 @@
+//scroll to sections
+
+var workNav = document.querySelector(".work")
+  .addEventListener("click", function scrollTo(){
+    var workSection = document.querySelector(".section--games");
+    workSection.scrollIntoView({ block: "start", behavior: "smooth" });
+
+});
+
+
+
 //thumbnails
 
 //thumbnail one
