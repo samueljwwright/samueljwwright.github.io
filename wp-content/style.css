@@ -89,9 +89,13 @@ margin-left:2em;
 .profile__picture__wrapper{
   width:50%;
   height:100%;
-  background-image:url("images/icon.jpg");
-  background-image: cover;
-  background-repeat: no-repeat;
+
+}
+.profile__picture__wrapper img{
+  width:500px;
+  height:500px
+
+
 }
 .profile__info__wrapper{
   width:50%;
