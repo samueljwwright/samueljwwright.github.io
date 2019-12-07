@@ -102,3 +102,18 @@ var canvas = document
     bot.classList.toggle("bot-tog");
   });
 
+    //thumbnail seven
+var canvas = document
+  .querySelector(".thumbnail--seven")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--seven");
+
+    var bot = document.querySelector(".cover--lower--seven");
+
+    var para = document.querySelector(".description--seven");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
+

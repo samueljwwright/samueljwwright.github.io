@@ -203,7 +203,12 @@ color:#ababab;
 .thumbnail--five{
     background-image: url("images/build01.jpg");
 }
+.thumbnail--six{
 
+}
+.thumbnail--seven{
+  background-image: url("images/hpenergy.jpg");
+}
 .cover {
   position: absolute;
   width: 100%;
