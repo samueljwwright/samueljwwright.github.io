@@ -197,6 +197,13 @@ color:#ababab;
 .thumbnail--three{
   background-image: url("images/charFour.jpg");
 }
+.thumbnail--four{
+  background-image: url("images/envscene.jpg");
+}
+.thumbnail--five{
+    background-image: url("images/build01.jpg");
+}
+
 .cover {
   position: absolute;
   width: 100%;
