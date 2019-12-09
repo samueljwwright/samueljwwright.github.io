@@ -145,15 +145,66 @@ color:#ababab;
 
 }
 
+
+
+/*hire me */
+
 .cv{
   margin: 5em;
 }
 
+/*env pack */
 
+.page__title{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(images/envlrg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -1.5em;
+  padding-bottom: 35em;
+ 
+}
+.page__title__text{
+  padding-top: 25em;
+  color:white;
+  text-align: center;
+}
+.page__content{
+  margin:5em;
+}
+.img__text{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:2em;
+}
+.img__text__img{
+  width:400px;
+  height:240px;
+  margin-right: 2em;
+}
+.img__text__text{
+  width:400px;
+  align-self: center;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.enviroment__img{
+  width:200px;
+  height:120px;
+  margin:0em 1em;
+  transition-duration: 1s;
+}
 
-
-
+.enviroment__img:hover{
+  transform: scale(1.5);
+}
 
 
 
