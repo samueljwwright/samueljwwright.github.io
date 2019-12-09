@@ -28,19 +28,19 @@ var canvas = document
   });
 
   //thumbnail two
-var canvas = document
-  .querySelector(".thumbnail--two")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--two");
+//var canvas = document
+  //.querySelector(".thumbnail--two")
+  //.addEventListener("mouseenter", function active() {
+    //var top = document.querySelector(".cover--upper--two");
 
-    var bot = document.querySelector(".cover--lower--two");
+    //var bot = document.querySelector(".cover--lower--two");
 
-    var para = document.querySelector(".description--two");
+    //var para = document.querySelector(".description--two");
     
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-  });
+   // para.classList.toggle("para-tog")
+    //top.classList.toggle("top-tog");
+    //bot.classList.toggle("bot-tog");
+  //});
 
     //thumbnail three
 var canvas = document
@@ -88,19 +88,19 @@ var canvas = document
   });
 
     //thumbnail six
-var canvas = document
-  .querySelector(".thumbnail--six")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--six");
+//var canvas = document
+  //.querySelector(".thumbnail--six")
+  //.addEventListener("mouseenter", function active() {
+    //var top = document.querySelector(".cover--upper--six");
 
-    var bot = document.querySelector(".cover--lower--six");
+    //var bot = document.querySelector(".cover--lower--six");
 
-    var para = document.querySelector(".description--six");
+    //var para = document.querySelector(".description--six");
     
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-  });
+    //para.classList.toggle("para-tog")
+    //top.classList.toggle("top-tog");
+    //bot.classList.toggle("bot-tog");
+  //});
 
     //thumbnail seven
 var canvas = document
