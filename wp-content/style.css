@@ -159,12 +159,17 @@ color:#ababab;
   display:flex;
   justify-content: center;
   align-content: center;
-  background-image: url(images/envlrg.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -1.5em;
   padding-bottom: 35em;
  
+}
+.page__title--enviroment{
+  background-image: url(images/envlrg.JPG);
+}
+.page__title--fortitude{
+  background-image: url(images/fortitudenight.JPG);
 }
 .page__title__text{
   padding-top: 25em;
