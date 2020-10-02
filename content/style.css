@@ -302,6 +302,31 @@ color:#ababab;
   padding: 1em;
   transition:2s;
 }
+.roles__section{
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 0.75em;
+}
+.roles{
+  border-radius: 10%;
+  padding:1px;
+}
+.moddeling{
+  background-color: #00A878;
+}
+.texturing{
+  background-color: #A6DF2A;
+}
+.code{
+  background-color: #FE5E41;
+}
+.art{
+  background-color: #4747FF;
+}
+
 .more {
   position: absolute;
   bottom: 1em;
