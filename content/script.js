@@ -116,4 +116,18 @@ var canvas = document
     top.classList.toggle("top-tog");
     bot.classList.toggle("bot-tog");
   });
+      //thumbnail eight
+var canvas = document
+  .querySelector(".thumbnail--eight")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--eight");
+
+    var bot = document.querySelector(".cover--lower--eight");
+
+    var para = document.querySelector(".description--eight");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
 

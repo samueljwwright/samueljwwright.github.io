@@ -171,6 +171,9 @@ color:#ababab;
 .page__title--fortitude{
   background-image: url(images/fortitudenight.JPG);
 }
+.page__title--FrogKingdom{
+  background-image: url(images/castle06.JPG);
+}
 .page__title__text{
   padding-top: 25em;
   color:white;
@@ -267,6 +270,9 @@ color:#ababab;
 .thumbnail--seven{
   background-image: url("images/hpenergy.JPG");
 }
+.thumbnail--eight{
+  background-image: url("images/FrogPoster.png");
+}
 .cover {
   position: absolute;
   width: 100%;
@@ -326,7 +332,9 @@ color:#ababab;
 .art{
   background-color: #4747FF;
 }
-
+.music{
+  background-color: #EB991E;
+}
 .more {
   position: absolute;
   bottom: 1em;
