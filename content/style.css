@@ -288,7 +288,7 @@ color:#ababab;
 }
 
 .thumbnail--lh{
-  background-image: url("images/LunchHourThumbnail.PNG");
+  background-image: url("images/LunchHourThumbnail.png");
 }
 .thumbnail--five{
     background-image: url("images/build01.JPG");
@@ -304,7 +304,7 @@ color:#ababab;
 }
 .thumbnail--erosion{
 
-  background-image: url("images/ErosionSim.png");
+  background-image: url("images/ErosionSim.PNG");
 }
 .thumbnail--rain{
 
@@ -321,7 +321,7 @@ color:#ababab;
 }
 .thumbnail--rob{
 
-    background-image: url("images/robot.png");
+    background-image: url("images/robot.PNG");
 }
 .cover {
   position: absolute;
