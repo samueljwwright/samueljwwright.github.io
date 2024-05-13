@@ -11,13 +11,12 @@
 <header> 
 	<div class="header__top header__padding__max">
 	<div class="title__section">
-	<h1 class="title">Interactive Media Portfolio</h1>
+	<h1 class="title">Software Engineer Portfolio</h1>
 	<div class="author">Samuel Wright</div>
 </div>
 <ul class="nav">
 	<a href="index.html"><li>Home</li></a>
 	<a class="work"><li>work</li></a>
-	<a href="http://samuelwrightportfilio.wordpress.com"><li>blog</li></a>
 	<a href="HireMe.html"><li>Hire Me!</li></a>
 
 
@@ -29,24 +28,21 @@
 <div class="profile">
 
 	<div class="profile__picture__wrapper">
-		<img src="content/images/icon.jpg">
+		<img class="imageMe"src="content/images/me.jpg">
 	</div>
 	<div class="profile__info__wrapper">
 		<div class="profile__text">
 		<h2>Hello! i'm</h2>
 		<h1>Samuel Wright</h1>
-		<p> I am an interactive media student based in the southwest of England. 
+		<p> I am a Computer games design and development student based between Cardiff & Bristol. <br><br><br>
+      I have a strong interest in graphics programming and game development but am also very interested in data engineering and machine learning. 
     </p>
 			<div class="social">
-		<a href="http://samuelwrightportfilio.wordpress.com">
-		<i class="fab fa-wordpress-simple icons"></i>
-	</a>
+
 		<a href="https://github.com/samueljwwright">
 		<i class="fab fa-github icons"></i>
 	</a>
-	<a href="https://codepen.io/sam-wright">
-		<i class="fab fa-codepen icons"></i>
-	</a>
+
 </div>
 	</div>
 	</div>
@@ -63,90 +59,204 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="section--assets">
 	<div class="section__header">
-		<div class="section__title">3D Models and Art</div>
+		<div class="section__title">Unity Projects</div>
 	<div class="section__header__underline section__header__underline--assets"></div>
 </div>
 	</div>
-<div class="thumbs">
-	<a href="EnviromentPack.html">
-	<div class="thumbnail thumbnail--four">
 
-  <div class="cover cover--upper--four cover--upper">
-    <div class="thumbnail__title">Forest Fanatasy Enviroment Pack (Low-Poly)</div>
+
+
+
+<section class="projects">
+
+  
+ <div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--lh">
+
+  <div class="cover cover--upper--lh cover--upper">
+    <div class="thumbnail__title">Lunch Hour</div>
   </div>
-  <div class="cover cover--lower--four cover--lower">
-    <div class="description description--four">My first enviroment pack created in blender!
+  <div class="cover cover--lower--lh cover--lower">
+    <div class="description description--lh">Playable prototype available upon request. Source code available upon request.
       </div>
               <div class="roles__section">
-          <span class="moddeling roles">3D Art</span>
-          <span class="texturing roles">Texturing</span>
+          <span class="code roles">C#</span>
+          <span class="code roles">Unity</span>
+          <span class="code roles">GIT</span>
+          <span class="moddeling roles">Blender</span>
+          <span class="texturing roles">Photoshop</span>
+          <span class="texturing roles">Illustrator</span>
         </div>
         <i class="fas fa-arrow-right more"></i>
       </div>
 
     </div>
 </a>
-<a href="EnviromentPack.html">
-  <div class="thumbnail thumbnail--two">
 
-  <div class="cover cover--upper--two cover--upper">
-    <div class="thumbnail__title">Stylized Garden Pack</div>
-  </div>
-  <div class="cover cover--lower--two cover--lower">
-    <div class="description description--two">My hand painted garden themed 3d asset pack!
-      </div>
-        <div class="roles__section">
-          <span class="moddeling roles">3D Art</span>
-          <span class="texturing roles">Texturing</span>
-        </div>
 
-        <i class="fas fa-arrow-right more"></i>
-      </div>
+<div class="project__description">
+<h2>Lunch Hour (Unity game)</h2>
 
-    </div>
-</a>
-		<a href="BuildingsPack.html">
-    	<div class="thumbnail thumbnail--five">
+<p>Lunch hour is a personal project I originally began developing last year. It uses procedurally generation to create levels in which players must organise food items on trays depending on size.
+</p>
 
-  <div class="cover cover--upper--five cover--upper">
-    <div class="thumbnail__title">Old fasshioned Style Buildings</div>
-  </div>
-  <div class="cover cover--lower--five cover--lower">
-    <div class="description description--five">My take on creating unique and styilised buildings in blender!
-      </div>        
-      <div class="roles__section">
-          <span class="moddeling roles">3D Art</span>
-          <span class="texturing roles">Texturing</span>
-        </div>
+<ul class="Project__Bullets">
 
-        <i class="fas fa-arrow-right more"></i>
-      </div>
-
-    </div>
-</a>
-<!--
-<a href="">
-    	<div class="thumbnail thumbnail--six">
-
-  <div class="cover cover--upper--six cover--upper">
-    <div class="thumbnail__title">Old Style Pub Building</div>
-  </div>
-  <div class="cover cover--lower--six cover--lower">
-    <div class="description description--six">My take on creating an old pub building in blender!
-      </div>
-        <i class="fas fa-arrow-right more"></i>
-      </div>
-
-    </div>
-</a>
+<li>Level Generation - The main selling point of this project is the implementation of a binary space partitioning algorithm to procedurally generate food trays by splitting them into sub-sections. This allows for endless levels to be created and played with no need to manually create them. The algorithm I designed and implemented worked well to create levels that were always possible, but always reasonably challenging.
+</li>
+<br>
+<li>Gameplay - Although original designed for mobile, controls are centered currently around mouse inputs. I created a control system that allows the player to "pickup" food items and place them in any section of the current food tray that they can fit in. Food can also be removed from sections and re-placed in different sections.
+</li>
+<br><br>
+<li>
+Future Development - I continue to create levels for the game and am in the process of adding further gameplay mechanics and a user data pipeline to ensure the game is able to be released. (most likely on android)
+</li>
+</ul>
 </div>
 
 
--->
+
+</div> 
+
+
+
+
+
+
+
+
+ <div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--Cyber">
+
+  <div class="cover cover--upper--Cyber cover--upper">
+    <div class="thumbnail__title">Cyber Spy</div>
+  </div>
+  <div class="cover cover--lower--Cyber cover--lower">
+    <div class="description description--Cyber">Playable prototype available upon request. Source code available upon request.
+      </div>
+              <div class="roles__section">
+          <span class="code roles">C#</span>
+          <span class="code roles">Unity</span>
+          <span class="code roles">GIT</span>
+          <span class="moddeling roles">Blender</span>
+          <span class="texturing roles">Photoshop</span>
+          <span class="texturing roles">Illustrator</span>
+        </div>
+        <i class="fas fa-arrow-right more"></i>
+      </div>
+
+    </div>
+</a>
+
+
+<div class="project__description">
+<h2>Cyber Spy (Unity game)</h2>
+
+<p>Cyber spy is a project I created in Unity inspired by the IO interactive game Hitman GO. I decided to create this project to better develop my ability and understanding of writing editor tools and engine development. 
+</p>
+
+<ul class="Project__Bullets">
+
+<li>Level Creation - For this project I built a custom level creation tool for Unity with the hope that designers with little to no coding ability would be able to create fully playable levels to use in the game. The levels editing tool I created generates a tiled space and allows for designers to asign walkable, and non-walkable tiles in addition to empty tiles that are discarded. The tool created operates outside of the games-runtime and allows for created levels to be stored as JSON or individual Unity scenes. 
+</li>
+<br>
+<li>
+Gameplay - The gameplay I created for this project was turnbased, players "click" neighbouring tiles to move their character around with the goal of avoiding enemies and reaching the end of the level.
+</li>
+<br>
+<li>
+  AI - given the structured nature of this gameplay I decided to create a range of NPC components providing varied gameplay. The basic rule of the game is that if the player enters a tile in view of an enemy the have failed and must restart. I implemented a range of different NPC types from static enemies with varying view ranges, roaming enemies that traverse the game tiles and scanning enemies that methodically scan relevant tiles at set intervals. 
+</li>
+<br><br>
+<li>
+Future Development - I plan on increasing the functionality of the created editor tool to allow for further creativity when generating levels including -> wall placement and prop placement.
+I also plan on creating more levels using the tool in order to create a full-scale and release ready game.
+</li>
+</ul>
+</div>
+
+
+
+</div>
+
+
+<div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--rob">
+
+  <div class="cover cover--upper--rob cover--upper">
+    <div class="thumbnail__title">Rob O'mann</div>
+  </div>
+  <div class="cover cover--lower--rob cover--lower">
+    <div class="description description--rob">Playable prototype available upon request. Source code available upon request.
+      </div>
+              <div class="roles__section">
+          <span class="code roles">C#</span>
+          <span class="code roles">Unity</span>
+          <span class="code roles">GIT</span>
+        </div>
+        <i class="fas fa-arrow-right more"></i>
+      </div>
+
+    </div>
+</a>
+
+
+<div class="project__description">
+<h2>Rob O'mann (Unity game)</h2>
+
+<p>Rob O'mann is game project I helped develop with a team of 3 peers. The game, designed for mobile devices, lets players draw lines or paths for their robot character to follow and must avoid entering the sight of humans. My role in this project mainly revoloved around designing and building the AI system.
+</p>
+
+<ul class="Project__Bullets">
+
+<li>Level Creation - 
+</li>
+<br>
+
+<li>
+  AI - 
+</li>
+<br><br>
+<li>
+Future Development - 
+</li>
+</ul>
+</div>
+
+
+
+</div>
+
+
+
+
 
 </section>
+
+
 
 
 
@@ -155,41 +265,34 @@
 
 <section class="section--games">
 	<div class="section__header">
-		<div class="section__title">games</div>
+		<div class="section__title">C++ Projects</div>
 	<div class="section__header__underline section__header__underline--games"></div>
 </div>
 	</div>
-<div class="thumbs">
-	<a href="fortitude.html">
-	<div class="thumbnail thumbnail--seven">
 
-  <div class="cover cover--upper--seven cover--upper">
-    <div class="thumbnail__title">Fortitude (Unity For PC/MAC/LINUX)</div>
+
+
+
+
+
+<section class="projects">
+
+  
+ <div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--erosion">
+
+  <div class="cover cover--upper--erosion cover--upper">
+    <div class="thumbnail__title">Hydraulic Erosion Simulation and Procedural Terrain Generation</div>
   </div>
-  <div class="cover cover--lower--seven cover--lower">
-    <div class="description description--seven">My first Unity project. A take on the classic endless runner game genre.
+  <div class="cover cover--lower--erosion cover--lower">
+    <div class="description description--erosion">Playable prototype available upon request. Source code available upon request.
       </div>
               <div class="roles__section">
-          <span class="moddeling roles">3D Art</span>
-          <span class="texturing roles">Texturing</span>
-          <span class="code roles">Coding</span>
-        </div>
-        <i class="fas fa-arrow-right more"></i>
-      </div>
-
-    </div>
-</a>
-	<a href="walldodger.html">
-	<div class="thumbnail thumbnail--one">
-
-  <div class="cover cover--upper--one cover--upper">
-    <div class="thumbnail__title">Micro-Bit Game: Wall Dodger</div>
-  </div>
-  <div class="cover cover--lower--one cover--lower">
-    <div class="description description--one">My take on a wall dodging game created in JavaScript using Codepen!
-      </div>
-      <div class="roles__section">
-          <span class="code roles">Coding</span>
+          <span class="code roles">C++</span>
+          <span class="code roles">GLSL</span>
+          <span class="code roles">OpenGL</span>
+          <span class="code roles">GIT</span>
         </div>
         <i class="fas fa-arrow-right more"></i>
       </div>
@@ -197,67 +300,234 @@
     </div>
 </a>
 
-		<a href="https://makecode.com/_bhp5f2Vq8V2t">
-    	<div class="thumbnail thumbnail--six">
 
-  <div class="cover cover--upper--six cover--upper">
-    <div class="thumbnail__title">Miasma 2D Platformer (WIP)</div>
-  </div>
-  <div class="cover cover--lower--six cover--lower">
-    <div class="description description--six">My first 2D platforming game in which the player controls a could of deadly gas with the ability to possess and control humans in order to interact with the enviroment.
-      </div>
-                      <div class="roles__section">
-          <span class="art roles">2D Art</span>
-          <span class="code roles">Coding</span>
-        </div>
-        <i class="fas fa-arrow-right more"></i>
-      </div>
+<div class="project__description">
 
-    </div>
-</a>
+<h2>Hydraulic Erosion Simulation and Procedural Terrain Generation (C++ using OpenGL & GLSL)</h2>
 
-    <a href="FrogKingdom.html">
-      <div class="thumbnail thumbnail--eight">
+<p>I built this project to procedurally generate 3D terrains using noise sets and to enhance their visual appeal by using a custom hydraulic erosion algorithm. <br><br>
+  The purpose of this project was to analyse the benefits of hydraulic erosion features on synthesised terrain in an effort to create a tool suitable for game developers/designers to use to create realistic and visually pleasing 3D landmasses for their own projects.
+</p>
 
-  <div class="cover cover--upper--eight cover--upper">
-    <div class="thumbnail__title">Frog Kingdom</div>
-  </div>
-  <div class="cover cover--lower--eight cover--lower">
-    <div class="description description--eight">My First independently produced 3D game. In a fictional universe where frogs are the
-      new dominant species, the player must cleanse the enviroment from human made waste and, ultimately, save the world!
-      </div>
-                      <div class="roles__section">
-          <span class="moddeling roles">3D Art</span>
-          <span class="texturing roles">Texturing</span>
-          <span class="music roles">Music</span>
-          <span class="code roles">Coding</span>
-        </div>
-        <i class="fas fa-arrow-right more"></i>
-      </div>
+<ul class="Project__Bullets">
 
-    </div>
-</a>
-
-<a href="MurderMystery.html">
-    	<div class="thumbnail thumbnail--three">
-
-  <div class="cover cover--upper--three cover--upper">
-    <div class="thumbnail__title">Twine Game: Murder Mystery</div>
-  </div>
-  <div class="cover cover--lower--three cover--lower">
-    <div class="description description--three">My first story driven game created using Twine with the addition of JavaScript to add more interactivity!
-      </div>
-                            <div class="roles__section">
-          <span class="code roles">Coding</span>
-        </div>
-        <i class="fas fa-arrow-right more"></i>
-      </div>
-
-    </div>
-</a>
+<li>Procedurl terrain generation - I implemented a noise based procedural generation system for this project whereby vertices on a given terrain are assigned elevations based on the sum of colour values of corresponding pixels on a list of noise images. 
+</li>
+<br>
+<li>Erosion - The goal of this project was to implement a reasonably realistic hydraulic erosion algorithm that produced aesthethically pleasing results and enhanced the appeal of basic procedural terrain. The erosion system I designed and developed eroded vertices (reduced elevation) if they were in the path of simulated water. The simulation was used to produce a range of real-world terrain features and is being further developed to allow ease-of-use and the exporting of eroded terrains as OBJ files.
+</li>
+<br>
+<li>
+Project setup - I developed this project using C++ and the OpenGL api. I have a strong  interest in graphics programing and used this project to gain more experience understanding the process of building a graphics related program and to further develop my shader writing abilities and OpenGL knowledge.
+</li>
+<br><br>
+<li>
+Future Development - I am pursuing further research into existing erosion algorthms and generative procedural apporachces to terrain synthesis and plan on moving the created algorithm to run on a compute shader with a more "scientificly accurate" fluid simulation.
+</li>
+</ul>
 </div>
 
+
+
+</div> 
+
+  
+ <div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--rain">
+
+  <div class="cover cover--upper--rain cover--upper">
+    <div class="thumbnail__title">Animated Textures and Compute Shaders</div>
+  </div>
+  <div class="cover cover--lower--rain cover--lower">
+    <div class="description description--rain">Playable prototype available upon request. Source code available upon request.
+      </div>
+              <div class="roles__section">
+          <span class="code roles">C++</span>
+          <span class="code roles">GLSL</span>
+          <span class="code roles">OpenGL</span>
+          <span class="code roles">GIT</span>
+
+
+        </div>
+        <i class="fas fa-arrow-right more"></i>
+      </div>
+
+    </div>
+</a>
+
+
+<div class="project__description">
+
+<h2>Animated Textures and Compute Shaders</h2>
+
+<p> As a further step in my journey into graphics programnig and shader writing I created a project for the development of animated textures. This project was created as I have a strong interest in technical art and felt pursuing a better understanding of writing GPU code capable of illustrating moving textures would be a beneficial experience. The project mainly revolved around a study into water droplets running down an objects surface and attempting to create a compute shader capable of visualising this.
+</p>
+
+<ul class="Project__Bullets">
+
+<li>Droplets movement - I created this effect by reducing droplet positions down the face of an objects texture with additional attributes to add realism. One notable feature is psuedo surface tension - This effect gives a reasonably   
+</li>
+<br>
+<li>Data Pipeline - Rain particles are created and manipulated on the CPU giving easy access to their attributes, they are then placed inside an SSBO buffer to be accessed on a compute shader where texels are coloured based on their distance to the particles.
+</li>
+<br>
+<li>
+Project setup - I developed this project using C++ and the OpenGL api. I have a strong  interest in graphics programing and used this project to gain more experience understanding the process of building a graphics related program and to further develop my shader writing abilities and OpenGL knowledge.
+</li>
+<br><br>
+<li>
+Future Development - Shader writing is something I have found a real interest in, continue to improve the existing rain droplet effect (visually and performance wise) and Creating new animated texture effects.
+</li>
+</ul>
+</div>
+
+
+
+</div> 
+
+
+
+<div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--ecs">
+
+  <div class="cover cover--upper--ecs cover--upper">
+    <div class="thumbnail__title">Entity Component System Engine Design (C++ using OGRE & Bullet)</div>
+  </div>
+  <div class="cover cover--lower--ecs cover--lower">
+    <div class="description description--ecs">Playable prototype available upon request. Source code available upon request.
+      </div>
+              <div class="roles__section">
+          <span class="code roles">C++</span>
+          <span class="code roles">OGRE</span>
+          <span class="code roles">BULLET</span>
+          <span class="code roles">Cmake</span>
+          <span class="code roles">GIT</span>
+        </div>
+        <i class="fas fa-arrow-right more"></i>
+      </div>
+
+    </div>
+</a>
+
+
+<div class="project__description">
+
+<h2>Entity Component System Engine Design</h2>
+
+<p>
+  This project consisted of taking basic game engine infrastructure and altering the code-base to accomodate a more scalable archticture -> ECS (Entity Componenet System)
+</p>
+
+<ul class="Project__Bullets">
+<li>
+  Architecture - I stripped the original code base to leave behind only functional code relating to game objects and replaced long inheritance trees with components. Each object in the game was assigned an entity unique identifier and held a list of components for functionality. 
+</li><br>
+<li>
+  Gameplay - This project focused more on understanding game engine architecture so the gameplay was left as a simple berserk clone.
+</li><br><br>
+<li>
+Future Development - I plan on extending the component list of this project and defining a more robust architecture to accomodate more complex game mechanics. I also plan on removing OGRE and implementing OpenGL where the lost functionality from OGRE will be replaced with my own work.
+</li>
+</ul>
+</div>
+
+
+
+</div> 
+
+
+
+
+
+
 </section>
+
+
+
+<section class="section--python">
+  <div class="section__header">
+    <div class="section__title">Python Projects</div>
+  <div class="section__header__underline section__header__underline--python"></div>
+</div>
+  </div>
+
+<section class="projects">
+
+
+<div class="project">
+  <a href="EnviromentPack.html">
+  <div class="thumbnail thumbnail--jobs">
+
+  <div class="cover cover--upper--jobs cover--upper">
+    <div class="thumbnail__title">Job searcher</div>
+  </div>
+  <div class="cover cover--lower--jobs cover--lower">
+    <div class="description description--jobs"> Prototype available upon request. Source code available upon request.
+      </div>
+              <div class="roles__section">
+          <span class="code roles">Python</span>
+          <span class="code roles">HTML</span>
+          <span class="code roles">CSS</span>
+          <span class="code roles">JavaScript</span>
+          <span class="code roles">GIT</span>
+        </div>
+        <i class="fas fa-arrow-right more"></i>
+      </div>
+
+    </div>
+</a>
+
+
+<div class="project__description">
+
+<h2>Job searcher (Reed API & WebScraper)</h2>
+
+<p>
+  I created this small project to fetch jobs (based on user input) from the website reed using the reed job searcher API in addition to a custom built webscraper. I wanted this tool to be able to effectively source relevant jobs based on input and to use the recieved data to compare the best locations for specific jobs.
+</p>
+
+<ul class="Project__Bullets">
+<li>
+  Python - I used python to find and package job data in this project. The reed API and the webscraper locate and gather job postings from the site and pacakge them in JSON as text (storing useful metadata such as location and salary). All data comparisons and manipulations are done within the python portion of this project. 
+</li><br>
+<li>
+  Visualisation - I used the python library MatPlotLib to visualise data such as average salary by job and city to produce easier to interpret data. I used a simple web approach for taking in user input and returning search results built using simple HTML, CSS and JavaScript.
+</li><br><br>
+<li>
+Future Development - I plan on extending the visualisation and data approach to this project by enhancing the user side and building a more robust website (with React.js)that can be hosted and used by real-world-users. I also plan on using ML libraries like tensor flow to train models in job postings to help predict expected salaries for unlisted positions and more.
+</li>
+</ul>
+</div>
+
+
+
+</div> 
+
+
+</section>
+
+
+
+<section class="section--games">
+  <div class="section__header">
+    <div class="section__title">Thanks!</div>
+  <div class="section__header__underline section__header__underline--games"></div>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
 <img src="wp-content/images/pre-loader.gif">

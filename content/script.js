@@ -9,125 +9,109 @@ var workNav = document.querySelector(".work")
 
 
 
-//thumbnails
-
-//thumbnail one
-var canvas = document
-  .querySelector(".thumbnail--one")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--one");
-
-    var bot = document.querySelector(".cover--lower--one");
-
-    var para = document.querySelector(".description--one");
-    
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-
-  });
-
-//thumbnail two
-var canvas = document
-.querySelector(".thumbnail--two")
-.addEventListener("mouseenter", function active() {
-var top = document.querySelector(".cover--upper--two");
-
-  var bot = document.querySelector(".cover--lower--two");
-
-var para = document.querySelector(".description--two");
-    
-  para.classList.toggle("para-tog")
-top.classList.toggle("top-tog");
-  bot.classList.toggle("bot-tog");
-});
-
-    //thumbnail three
-var canvas = document
-  .querySelector(".thumbnail--three")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--three");
-
-    var bot = document.querySelector(".cover--lower--three");
-
-    var para = document.querySelector(".description--three");
-    
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-  });
 
     //thumbnail four
 var canvas = document
-  .querySelector(".thumbnail--four")
+  .querySelector(".thumbnail--lh")
   .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--four");
+    var top = document.querySelector(".cover--upper--lh");
 
-    var bot = document.querySelector(".cover--lower--four");
+    var bot = document.querySelector(".cover--lower--lh");
 
-    var para = document.querySelector(".description--four");
+    var para = document.querySelector(".description--lh");
     
     para.classList.toggle("para-tog")
     top.classList.toggle("top-tog");
     bot.classList.toggle("bot-tog");
   });
 
-    //thumbnail five
+
 var canvas = document
-  .querySelector(".thumbnail--five")
+  .querySelector(".thumbnail--Cyber")
   .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--five");
+    var top = document.querySelector(".cover--upper--Cyber");
 
-    var bot = document.querySelector(".cover--lower--five");
+    var bot = document.querySelector(".cover--lower--Cyber");
 
-    var para = document.querySelector(".description--five");
+    var para = document.querySelector(".description--Cyber");
     
     para.classList.toggle("para-tog")
     top.classList.toggle("top-tog");
     bot.classList.toggle("bot-tog");
   });
 
-    //thumbnail six
+
+
 var canvas = document
-  .querySelector(".thumbnail--six")
+  .querySelector(".thumbnail--erosion")
   .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--six");
+    var top = document.querySelector(".cover--upper--erosion");
 
-    var bot = document.querySelector(".cover--lower--six");
+    var bot = document.querySelector(".cover--lower--erosion");
 
-    var para = document.querySelector(".description--six");
-    
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-});
-
-    //thumbnail seven
-var canvas = document
-  .querySelector(".thumbnail--seven")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--seven");
-
-    var bot = document.querySelector(".cover--lower--seven");
-
-    var para = document.querySelector(".description--seven");
-    
-    para.classList.toggle("para-tog")
-    top.classList.toggle("top-tog");
-    bot.classList.toggle("bot-tog");
-  });
-      //thumbnail eight
-var canvas = document
-  .querySelector(".thumbnail--eight")
-  .addEventListener("mouseenter", function active() {
-    var top = document.querySelector(".cover--upper--eight");
-
-    var bot = document.querySelector(".cover--lower--eight");
-
-    var para = document.querySelector(".description--eight");
+    var para = document.querySelector(".description--erosion");
     
     para.classList.toggle("para-tog")
     top.classList.toggle("top-tog");
     bot.classList.toggle("bot-tog");
   });
 
+
+var canvas = document
+  .querySelector(".thumbnail--rain")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--rain");
+
+    var bot = document.querySelector(".cover--lower--rain");
+
+    var para = document.querySelector(".description--rain");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
+
+var canvas = document
+  .querySelector(".thumbnail--ecs")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--ecs");
+
+    var bot = document.querySelector(".cover--lower--ecs");
+
+    var para = document.querySelector(".description--ecs");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
+  
+  var canvas = document
+  .querySelector(".thumbnail--rob")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--rob");
+
+    var bot = document.querySelector(".cover--lower--rob");
+
+    var para = document.querySelector(".description--rob");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });
+
+
+
+
+  var canvas = document
+  .querySelector(".thumbnail--jobs")
+  .addEventListener("mouseenter", function active() {
+    var top = document.querySelector(".cover--upper--jobs");
+
+    var bot = document.querySelector(".cover--lower--jobs");
+
+    var para = document.querySelector(".description--jobs");
+    
+    para.classList.toggle("para-tog")
+    top.classList.toggle("top-tog");
+    bot.classList.toggle("bot-tog");
+  });

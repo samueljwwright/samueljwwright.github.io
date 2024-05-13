@@ -6,14 +6,14 @@ body, html{
 	margin:0;
 	padding:0;
 }
-.profile h1,h2,p{
+.profile h1,h2,p, ul{
 
   font-family: 'Raleway', sans-serif; 
 }
 header{
   padding-top: 2em;
 
-  background-image:linear-gradient(to right,#4572bf,#53e0d0);
+  background-image:linear-gradient(to right,#484a48,#1e1f1e);
   color:#ebebeb;
 
 }
@@ -92,11 +92,15 @@ margin-left:2em;
 
 }
 .profile__picture__wrapper img{
-  width:500px;
-  height:500px
+  
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  object-fit: cover; 
 
 
 }
+
 .profile__info__wrapper{
   width:50%;
   height:100%;
@@ -219,11 +223,35 @@ color:#ababab;
 
 
 
+.projects {
+ 
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.project {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 30px black;
 
+}
+.project__description {
+  flex-grow: 1;
+  padding: 0 20px;
+  padding-right: 3em;
+}
 
+.project__description h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
 
-
-
+.project__description p {
+  font-size: 14px;
+  color: #555;
+}
 
 
 
@@ -258,8 +286,9 @@ color:#ababab;
 .thumbnail--three{
   background-image: url("images/charFour.jpg");
 }
-.thumbnail--four{
-  background-image: url("./images/envscene.JPG");
+
+.thumbnail--lh{
+  background-image: url("images/LunchHourThumbnail.PNG");
 }
 .thumbnail--five{
     background-image: url("images/build01.JPG");
@@ -272,6 +301,27 @@ color:#ababab;
 }
 .thumbnail--eight{
   background-image: url("images/FrogPoster.png");
+}
+.thumbnail--erosion{
+
+  background-image: url("images/ErosionSim.png");
+}
+.thumbnail--rain{
+
+    background-image: url("images/rainanim.gif");
+
+}
+.thumbnail--Cyber{
+
+    background-image: url("images/CyberSpy.png");
+}
+.thumbnail--ecs{
+
+    background-image: url("images/ECS.gif");
+}
+.thumbnail--rob{
+
+    background-image: url("images/robot.png");
 }
 .cover {
   position: absolute;
